@@ -1,0 +1,362 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse; /*Мы перевернули местами текс*/
+    background: #FFFFFF;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    background: #1E2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.foto {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.sidebar__title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.contacts , .tech__skills , .soft__skills , .languages {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contacts__type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.contacts__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+}
+
+.tech__skills_list , .soft__skills__list , .languages_list {
+    color: white;
+    padding: 0px;
+    margin-left: 18px;
+}
+
+.tech__skills__item , .soft__skills__item , .languages__item {
+    color: #FB6D3A;
+}
+
+.tech__skills_text , .soft__skills__text , .languages_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.tech__skills {
+    margin-bottom: 44px;
+}
+
+.about__user {
+    width: 400px;
+    height: 230px;
+    margin-left: 88px;
+    margin-top: 102px;
+}
+
+.au__front {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.au__Anton {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.au__Lorem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects {
+    width: 485px;
+    height: 107px;
+    margin-left: 88px;
+    margin-top: 40px;
+}
+
+.projects__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.projects__ol {
+    padding: 0px;
+    margin-left: 18px;
+}
+
+.projects__li {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.projects__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none; /*Убрал подчеркивание в ссылках*/
+}
+
+.projects__span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work {
+    margin-left: 88px;
+    margin-top: 51px;
+}
+
+.work__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.work__front {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 12px;
+}
+
+.Freelance {
+    color: #FB6D3A;
+}
+
+.work__september {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 11px;
+}
+
+.work__ul {
+    padding: 0px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.work__li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.comtwo__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.Roga {
+    color: #FB6D3A;
+}
+
+.comtwo__march {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 11px;
+}
+
+.comtwo__ul {
+    padding: 0px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.comtwo__li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.main__content {
+    width: calc(100% - 370px); /*Прописал благодаря совету ментора*/
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comthree__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.Rogacmthree {
+    color: #FB6D3A;
+}
+
+.comthree__June {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 11px;
+}
+
+.comthree__ul {
+    padding: 0px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.comthree__li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 43px;
+}
+
+.education__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-top: 12px;
+}
+
+.education__management {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 11px;
+}
+
+.education__sep {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 12px;
+}
+
+.photo {
+    width: 370px;
+    height: 354px;
+}
+
+.footer {
+    background-color: #595959;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.lgo {
+    width: 100px;
+}
+
+.menu__list {
+    list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 32px;
+    text-decoration: none;
+}
+.header__container {
+    display: flex;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header {
+    margin-left: 24px;
+}
+
+.about__me {
+    margin-left: 90px;
+}

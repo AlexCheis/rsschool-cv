@@ -1,1 +1,161 @@
-gl
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <title>Resume</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="" class="header__logo"><img class="lgo" src="./img/logo.svg" alt="logo"></a>
+            <nav class="header__menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#home" class="menu__link">HOME</a></li>
+                    <li class="menu__item"><a href="#work" class="menu__link">Work</a></li>
+                    <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="#footer" class="menu__link">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="menu__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="main">
+        <div class="main__content">
+            <div class="about__user">
+                <h2 class="au__front">
+                    Front-End Developer
+                </h2>
+                <h1 class="au__Anton">
+                    Oleksandr
+                </h1>
+            </div>
+            <div class="projects">
+                <h3 class="projects__title">
+                    Projects
+                </h3>
+                <ol class="projects__ol">
+                    <li class="projects__li">
+                        <a class="projects__link" href="https://alexcheis.github.io/logoipsumFIGMA/">https://alexcheis.github.io/logoipsumFIGMA/</a>
+                        <span class="projects__span">
+                        ............
+                        [ HTML5, CSS3 ]
+                        </span>
+                    </li>
+                </ol>
+            </div>
+            <div class="about__me">
+                <h3 class="about____me">About Me</h3>
+                <p>  I like to study and learn something new. I like to read books, do physical education, listen to music of different genres. I'm fond of good cars and bikes. I lead active and healhy lifestyle. I like to work and see the results of my work.
+Since childhood, I have had a predisposition to work with electronics and computers. I like to disassemble, assemble and configure something. I can build, configure, solve problems with computers.</p>
+            </div>
+            <div class="about__me">
+                <h3 class="about____me">Code example</h3>
+                <p> const createSelectedSection = (root) => {
+                    const nav = root.querySelector('nav');
+                
+                    root.querySelectorAll('.observe').forEach(s => {
+                        new IntersectionObserver((entries) => {
+                            entries.forEach(entry => {
+                                if (entry.isIntersecting) {
+                                    nav.querySelectorAll('a').forEach(link => link.classList.remove('active'))
+                                    let id = entry.target.getAttribute('id');
+                                    nav.querySelector(`a[href="#${id}"]`).classList.add('active');
+                                }
+                            })
+                        }, {}).observe(s);
+                    })
+                }
+                    </p>            
+
+                </div>
+         <div class="work">
+                <div>
+                    <h4 class="education__title">
+                        Education
+                    </h4>
+                    <p class="education__text">
+                        National Technical University – «Kharkiv Polytechnic Institute»
+                    </p>
+                    <h4 class="education__management">
+                        Mechanical Engineering
+                    </h4>
+                    <p class="education__sep">
+                        June 2017   |   Ukraine
+                    </p>
+                    <p class="education__text">
+                        Kharkiv State University of Food Technology and Trade
+                    </p>
+                    <h4 class="education__management">
+                        International Economic Relations
+                    </h4>
+                    <p class="education__sep">
+                        December 2018   |   Ukraine
+                    </p>
+                </div>
+            </div>
+        </div>
+     <aside class="sidebar">
+        <img class="photo" src= "./IMG/IMG_0066.JPG" alt="user photo">
+        <div class="contacts">
+            <h3 class="sidebar__title">
+                Contacts
+            </h3>
+            <div>
+                <p>
+                    <span class="contacts__type">C:</span>
+                    <a class="contacts__link" href="tel:+380932364065">+380932364065</a>
+                </p>
+                <p>
+                    <span class="contacts__type">E:</span>
+                    <a class="contacts__link" href="forzeland@ukr.net">forzeland@ukr.net</a>
+                </p>
+            </div>
+        </div>
+        <div class="tech__skills">
+            <h3 class="sidebar__title">
+                Tech Skills
+            </h3>
+            <ul class="tech__skills_list">
+                <li class="tech__skills__item"><span class="tech__skills_text">HTML5</span></li>
+                <li class="tech__skills__item"><span class="tech__skills_text">CSS3</span></li>
+                <li class="tech__skills__item"><span class="tech__skills_text">GIT</span></li>
+                <li class="tech__skills__item"><span class="tech__skills_text">JavaScript</span></li>
+            </ul>    
+        </div>
+        <div class="soft__skills">
+            <ul class="soft__skills__list">
+                <li class="soft__skills__item"><span class="soft__skills__text">Teamwork</span></li>
+            </ul>
+        </div>
+    <div class="languages">
+        <h3 class="sidebar__title">
+            Languages
+        </h3>
+        <ul class="languages_list">
+            <li class="languages__item"><span class="languages_text">Ukraine - C2</span></li>
+            <li class="languages__item"><span class="languages_text">Russian - C2</span></li>
+            <li class="languages__item"><span class="languages_text">Polish - B2</span></li>
+            <li class="languages__item"><span class="languages_text">English - A2</span></li>
+        </ul>    
+    </div>
+    </aside>
+</div>
+</main>
+<footer>
+    <div class="footer">
+        <a href="https://rs.school/js/" class="header__logo"><img class="lgo" src="./img/logo.svg" alt="logo"></a>
+        Copyright 2022
+    </div>
+</footer>
+</body>
+</html>
